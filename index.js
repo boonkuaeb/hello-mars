@@ -1,3 +1,7 @@
-module.exports = function(){
-    console.log('Hello Mars!')
+module.exports = function(lang){
+   if (lang === "th") {
+        console.log("สวัสดี ดาวอังคาร!!")
+   } else {
+        console.log('Hello Mars!')
+   }
 }
